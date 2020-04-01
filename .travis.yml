@@ -5,3 +5,15 @@ beforeinstall:
   - docker build -t testme -f Dockerfile.dev .
 script:
   - docker run testme npm run test -- -- coverage
+deploy:
+  provider: elasticbeanstalk
+  region: "ap-south-1"
+  app: "docker"
+  env : "Docker-env"
+  bucket_name: "elasticbeanstalk-ap-south-1-554284713240"
+  bucket_path: "docker"
+  on:
+    branch: master
+  access_key_id: $AWS_access_key_not_secret
+  secret_access_key:
+    secure:  "$AWS_accesskey"
