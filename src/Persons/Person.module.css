@@ -1,0 +1,6 @@
+.person{
+    border: 1px solid blue;
+    background-color: white;
+    box-shadow: 0 2px 2px red;
+    text-align: center;
+}

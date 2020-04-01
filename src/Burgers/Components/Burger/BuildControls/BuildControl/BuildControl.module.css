@@ -1,0 +1,32 @@
+.Buildcontrol{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:5px 0;
+}
+.Buildcontrol button{
+    display:block;
+    font: inherit;
+    padding:5px;
+    margin:0 5px;
+    width:80px;
+    border:1px solid brown;
+    cursor:pointer;
+    outline: none;
+}
+.Label{
+    padding:10px;
+    font-weight: bold;
+    width:80px;
+}
+
+.Buildcontrol .More{
+    background-color: #DAA972
+;
+color:white;
+
+}
+.Buildcontrol .Less{
+    background-color: #8F5E1E;
+    color: white;
+}

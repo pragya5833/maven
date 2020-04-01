@@ -1,0 +1,9 @@
+.products{
+    border-width:5px;
+    border-style: solid;
+    margin-top:100px;
+    margin-bottom:100px;
+    margin-right:150px;
+    margin-left:80px;
+    padding:50px 30px 50px 80px;
+}

@@ -1,0 +1,7 @@
+.show{
+    border:1px solid blue;
+    box-shadow: 0 2px 2px red;
+    width:200 px;
+    padding:20px;
+    text-align: center;
+}
