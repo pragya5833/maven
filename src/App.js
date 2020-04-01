@@ -27,7 +27,7 @@ class App extends Component {
 		let showques = (
 			<div>
 				{this.state.questions.map((s,index) => {
-					return <Showquestion quest={s.question} click={()=>this.changeshow(index)} showoption={s.showoption} opts={s.options} />;
+					return <Showquestion key={s} quest={s.question} click={()=>this.changeshow(index)} showoption={s.showoption} opts={s.options} />;
 				})}
 			</div>
 		);
