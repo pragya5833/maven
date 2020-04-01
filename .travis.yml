@@ -4,7 +4,7 @@ services:
 beforeinstall:
   - docker build -t testme -f Dockerfile.dev .
 script:
-  - docker run testme npm run test -- -- coverage
+  - docker run testme npm run test
 deploy:
   provider: elasticbeanstalk
   region: "ap-south-1"
